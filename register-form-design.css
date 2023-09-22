@@ -1,0 +1,14 @@
+body{
+    background-image: url(background.jpeg);
+}
+div{
+    margin-left: 25%;
+    position: fixed;
+}
+#register{
+    margin-top: 4%;
+}
+p{
+    color: white;
+    margin-bottom: 4%;
+}

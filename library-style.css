@@ -1,0 +1,12 @@
+body{
+    background-image: url("books.jpeg");
+}
+header{
+    margin-left: 70%;
+}
+img{
+    max-width: 100%;
+}
+#down{
+    margin-top: 35%;
+}

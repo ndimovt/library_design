@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Log In</title>
+    </head>
+    <body>
+        <p>Enter username</p>
+        <input type="text" placeholder="username">
+        <p>Enter password</p>
+        <input type="text" placeholder="password"><br>
+        <button id="userEnter">Enter</button>
+        <script>
+            const enterButton = document.getElementById('userEnter').addEventListener('click', logIn);
+
+            function logIn(){
+                window.open('mainPage.html');
+            }
+        </script>
+    </body>
+</html>
